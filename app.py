@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 # ... (Rest of your Flask application code remains the same)
 # Load your dataset from CSV
-df = pd.read_csv(r"C:\Users\ansha\Downloads\Chatbot-20231221T063917Z-001\new_alumni_data.csv")
+df = pd.read_csv(r"C:\Users\ansha\OneDrive\Documents\Alumni_2023\new_alumni_data.csv")
 
 @app.route("/")
 def home():
